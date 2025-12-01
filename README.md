@@ -31,23 +31,23 @@ This allows you to:
 
 ---
 
-## 🔹 Features / Learning Outcomes
+## Features / Learning Outcomes
 
-### ✔ Vulnerable Version
+### Vulnerable Version
 - Raw SQL string concatenation 
 - SQL comment-based login bypass (`admin' -- `) 
 - Debug SQL output 
 - Plain-text passwords 
 - Over-privileged DB user 
 
-### ✔ Documentation
+### Documentation
 Located in the `docs/` directory:
 
 - Full vulnerability write-up 
 - Screenshots 
 - Hardening plan 
 
-### ✔ Planned Secure Version (Phase 2)
+### Planned Secure Version (Phase 2)
 - Prepared statements (parameterised queries) 
 - Sanitised user input 
 - Proper password hashing 
@@ -95,7 +95,7 @@ They are referenced inside:
 
 ---
 
-# 🔹 How to Run This Lab (Local Only)
+# How to Run This Lab (Local Only)
 
 > **IMPORTANT**
 > This application is intentionally vulnerable.
@@ -104,7 +104,7 @@ They are referenced inside:
 
 ---
 
-## **1. Install required packages (Ubuntu / Debian)**
+## 1. Install required packages (Ubuntu / Debian)
 
 ```bash
 sudo apt update
@@ -113,7 +113,7 @@ sudo apt install apache2 php php-mysql mariadb-server mariadb-client -y
 
 ---
 
-## **2. Clone this repo into your web root**
+## 2. Clone this repo into your web root
 
 ```bash
 cd /var/www/html
@@ -124,7 +124,7 @@ cd shop-lab
 
 ---
 
-## **3. Create the database**
+## 3. Create the database
 
 Run the SQL setup script:
 
@@ -145,7 +145,7 @@ This creates:
 
 ---
 
-## **4. Access the web application**
+## 4. Access the web application
 
 Open a browser (same network):
 
@@ -217,9 +217,9 @@ Full explanation + screenshots:
 
 # Roadmap
 
-- ✔ Vulnerable login created 
-- ✔ SQL injection PoC documented 
-- ✔ Repository structure completed 
+- ☐ Vulnerable login created 
+- ☐ SQL injection PoC documented 
+- ☐ Repository structure completed 
 - ☐ Build secure login (`login_secure.php`) 
 - ☐ Add search-based SQLi example 
 - ☐ Add GET parameter SQLi (`view.php?id=1`) 
